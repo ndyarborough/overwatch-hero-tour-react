@@ -5,12 +5,23 @@
   
   We used the Giant Bomb API for all hero information and pictures
 
-# Git Clone
-  Clone the repository to your computer
-  cd into the project directory
+# Install the project on your device
+  Copy the repository remote above
+  Run "git clone http:github.com/your_remote_here" in your terminal 
 
-# Run NPM Install
+# Get to the project directory on your device
+  In your terminal, Run "cd overwatch-hero-tour-react"
 
-# NPM run start
+# Download the dependencies
+   Npm install
       or
-# Yarn start
+   Yarn install
+  
+
+# Run the Server
+  Npm run start
+      or
+   Yarn start
+
+# View app in the browser
+  http://localhost:3000/
