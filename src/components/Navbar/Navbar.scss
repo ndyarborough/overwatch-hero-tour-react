@@ -1,0 +1,34 @@
+@import '../../App.scss';
+
+
+#Navbar {
+    background: $orange;
+    height: 75px;
+     // Logo
+     img {
+        float: left;
+        margin: 20px;
+        height: 55px;
+        width: 55px;
+        margin: 12px;
+    }
+       
+    @media screen and (max-width: $break-small) {
+        height: 50px;
+        img {
+            height: 35px;
+            width: 35px;
+            margin: 8px;
+        }
+    }
+    @media screen and (min-width: $break-large) {
+        height: 100px;
+        img {
+            height: 65px;
+            width: 65px;
+            margin: 17px;
+        }
+
+    }
+}
+

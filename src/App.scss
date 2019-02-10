@@ -1,5 +1,15 @@
+// Overwatch Color Pack
+$orange: #FA9C1D;
+$dark-gray: #303C42;
+$white: #fff;
+// Breakpoints
+$break-small: 450px;
+$break-large: 1200px;
+
 .App {
-  text-align: center;
+    text-align: center;
+    height: 100vh;
+    background: url('/imgs/hollywood_map.jpg');
 }
 
 .App-logo {
@@ -20,13 +30,4 @@
 
 .App-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
