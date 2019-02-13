@@ -2,33 +2,49 @@
 
 
 #Navbar {
+    // Tablet
     background: $orange;
-    height: 75px;
-     // Logo
-     img {
+    height:75px;
+    #logo {
         float: left;
-        margin: 20px;
         height: 55px;
         width: 55px;
-        margin: 12px;
+        margin: 10px;
     }
-       
+    #menu-button {
+        float: right;
+        height: 55px;
+        width: 45px;
+        margin: 10px 15px;
+        
+    }
+    // Phone   
     @media screen and (max-width: $break-small) {
         height: 50px;
-        img {
+        #logo {
             height: 35px;
             width: 35px;
             margin: 8px;
         }
+        #menu-button {
+            float: right;
+            height: 45px;
+            width: 30px;
+            margin: 5px 10px;
+            
+        }
     }
+    // Desktop
     @media screen and (min-width: $break-large) {
         height: 100px;
-        img {
+        #logo {
             height: 65px;
             width: 65px;
             margin: 17px;
         }
+        #menu-button {
+            display: none;
+        }
 
     }
 }
-

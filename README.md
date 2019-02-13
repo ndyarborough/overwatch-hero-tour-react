@@ -19,7 +19,7 @@
   
 
 # Run the Server
-  Npm run start
+  Npm start
       or
    Yarn start
 
